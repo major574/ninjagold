@@ -5,6 +5,9 @@
 	<title>Ninja Gold</title>
 </head>
 <body>
+	<div>
+		{{session['gold']}}
+	</div>
 	<div id='farmdiv'>
 	<form action="/process_money" method="post">
 		<h3>Farm</h3>
@@ -23,11 +26,17 @@
 		<p>earns 1-5 gold</p>
 		<input type ="hidden" name="roll" value="houseval">
 		<input type="submit" value="Find Gold"/>
+	</form>
 	<form action="process_money" method="post">
 		<h3>Casino</h3>
 		<p>earns -20 or 50 gold</p>
 		<input type="hidden" name="roll" value="casinoval">
 		<input type="submit" value="Find Gold"/>
+    </form>
 	</div>
+	{{session['message']}}
+	<form action = '/reset' method = 'post'>
+        <button>Reset</button>
+    </form>
 </body>
 </html>
