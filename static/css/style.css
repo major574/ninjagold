@@ -1,0 +1,60 @@
+*{
+	padding: 0;
+	margin: 5px;
+	/*outline: 1px dotted green;*/
+}
+body{
+	display: inline-block;
+	max-width: 800px;
+	margin-left: 230px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: black;
+	border-color: yellow;
+}
+#farmdiv{
+	display: inline-block;
+	height: 120px;
+	background-color: black;
+}
+#farmz, #cavez, #houze, #cazino{
+	vertical-align: top;
+	display: inline-block;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	min-height: 100px;
+	min-width: 150px;
+	background-color: yellow;
+	font-weight: bold;
+
+}
+#resetbtn{
+	margin-left: 315px;
+	padding: 5px;
+	background-color: black;
+	border-radius: 5px;
+	border-style: solid;
+	color: yellow;
+}
+#totalbox{
+	min-height: 150px;
+	margin-top: 20px;
+	max-width: 655px;
+	background-color: white;	
+}
+#goldbox{
+	width: 100px;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	background-color: black;
+	color: yellow;
+}
+input{
+	background-color: yellow;
+	padding: 5px;
+	border-radius: 5px;
+	font-weight: bold;
+}
